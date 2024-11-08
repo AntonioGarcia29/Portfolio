@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/7c29f44965.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="Wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2> A <span>G</span></h2>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a class="active" href="#Home">Home</a></li>
+                    <li><a class="active" href="#About">Acerca de mi</a></li>
+                    <li><a class="active" href="#portfolio">Portafolio</a></li>
+                    <li><a class="active" href="#Contact">Contacto</a></li>
+                </ul>
+                <div class="toggleMenu">
+                    <i class="fas fa-bars" id="Toggle-Open"></i>
+                    <i class="fas fa-close" id="Toggle-Close"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="main" id="Home">
+            <div class="info-content">
+                <span class="info-content__subtitle">Desarrollador de software</span>
+                <h1>Soy <span>Antonio </span>García</h1>
+                <div class="social-networks">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p class="info-content__p">Ingeniero de software, Back-end Developer con experiencia trabajando con
+                    APIs, usando NodeJS, ExpressJS, HTML, Css, Bootstrap, Typescript, NestJs, ReactJS entre otros
+                    Tengo una buena comunicación, coordinación, aprendo de forma rápida y cuento con una gran capacidad
+                    para la resolución de problemas.
+                    Me gusta aprender y encontrar maneras de mejorar el código, siempre dispuesto a aprender algo nuevo
+                    y ampliar mi conocimiento en diferentes ámbitos de programación
+                </p>
+                <a download="Antonio García CV" href="/CV/CV.pdf">
+                    <button class="download-cv">Download CV</button>
+                </a>
+            </div>
+            <img src="" height="450" alt="">
+        </main>
+    </div>
+
+    <div class="about" id="About">
+        <img src="" alt="">
+        <div class="about-info">
+            <h2>Acerca de mí</h2>
+            <div class="divider"></div>
+            <h3>Habilidades duras</h3>
+            <p>Actualmente estudio ingeniería de software en la universidad Autónoma de Querétaro, cuento con
+                experiencia en diversos lenguajes de programación, sin embargo, tengo gran especialización en JavaScript
+                y C++, además de haber desarrollado aplicaciones para móviles, Manejo además del Español, portugués e
+                inglés
+            </p>
+            <h3>Habilidades blandas</h3>
+            </p>Puedo trabajar de forma muy eficiente en un equipo, tengo habilidades importantes como lo son el
+            liderazgo, pensamiento crítico, compromiso, creatividad, adaptabilidad y puedo trabajar bajo presión.
+            </p>
+            <button class="download-cv">Leer más</button>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="portfolio-headings">
+            <h2>My portfolio</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="card_img">
+                </div>
+                <div class="card_title">
+                    <h2>Pokenator</h2>
+                    <p>Un algoritmo que genera preguntas para “adivinar” cual es el pokemon en el que piensas. Este
+                        algoritmo fue basado en la pagina ya conocida como Akinator.</p>
+                </div>
+                <div class="card__projects-links">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-github"></i></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-globe"></i></i>
+                    </a>
+                    <a href="" target="_blank   ">
+                        <i class="fa-solid fa-code"></i></i>
+                    </a>
+                </div>
+                <div class="proyect-details-content">
+                    <button class="project-details">
+                        <a href="">
+                            Project Details
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img">
+                </div>
+                <div class="card_title">
+                    <h2>Rutas Qrobus</h2>
+                    <p>aplicación sobre el transporte público en Querétaro, se encuentra aún en fase de desarrollo.
+                        Tiene como objetivo el visualizar las rutas y el tiempo estimado de llegada a tu ubicación.</p>
+                </div>
+                <div class="card__projects-links">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-github"></i></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-globe"></i></i>
+                    </a>
+                    <a href="" target="_blank   ">
+                        <i class="fa-solid fa-code"></i></i>
+                    </a>
+                </div>
+                <div class="proyect-details-content">
+                    <button class="project-details">
+                        <a href="">
+                            Project Details
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contac-section" id="Contact">
+        <div class="portfolio-headings">
+            <h2>Keep in touch</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+            <img class="contac-section-img" src="" alt="">
+            <div class="contact-form">
+                <h4>Send me a message...</h4>
+                <form class="form">
+                    <input type="text" placeholder="Name">
+                    <input type="Email" placeholder="Email">
+                    <textarea placeholder="Place your message here...">
+                    </textarea>
+                    <button type="submit" class="btn-submit">
+                        Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Antonio García</h2>
+            <h4> Desarrollador de Software</h4>
+        </div>
+        <div class="social-network">
+            <a href="https://www.facebook.com/profile.php?id=100006418693587">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/anto_o.gg/profilecard/?igsh=MWhqNXZlNmZlb3hxOQ==">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/AntonioGarcia29">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
